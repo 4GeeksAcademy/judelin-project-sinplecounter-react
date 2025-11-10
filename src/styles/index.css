@@ -1,8 +1,34 @@
-.counter{
+.container {
+    margin: auto;
+}
+
+.counter {
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 100vh;
-    padding: 3rem;
-   
+    padding-bottom: 3rem;
+    width: 80rem;
+    background: black;
+    height: 15rem;
+}
+
+.counter .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    padding-right: 2rem;
+    color: white;
+    border: 2px solid rgba(86, 85, 85, 0.778);
+    padding-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    background: rgba(82, 79, 79, 0.285);
+    border-radius: 1rem;
+}
+
+.fa-style {
+    font-size: 7.3rem;
+    padding-top: 2rem;
+    margin-right: 1rem;
 }
